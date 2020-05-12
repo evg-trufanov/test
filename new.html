@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    var Rub = prompt("введите сумму в рублях");
+    Rub = parseInt(Rub);
+    var Euro = 72;
+    var Dollar = 64;
+    //var rubEuro = Rub/Euro;
+    var rubDollar = (Rub / Dollar).toFixed(2);
+
+    alert(Rub + " рублей = " + (Rub / Euro).toFixed(2) + " евро или " + rubDollar + " долларов");
+</script>
